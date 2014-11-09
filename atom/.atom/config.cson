@@ -1,0 +1,58 @@
+'global':
+  'editor':
+    'fontFamily': 'InconsolataCyr'
+    'lineHeight': 1.4
+    'scrollPastEnd': true
+    'showIndentGuide': true
+  'core':
+    'projectHome': '/home/dsh/Projects'
+    'themes': [
+      'predawn-ui'
+      'predawn-syntax'
+    ]
+  'minimap':
+    'displayPluginsControls': false
+  'save-session':
+    'dataSaveFolder': '/home/dsh/.atom/packages/save-session/projects'
+    'windowX': 49
+    'windowY': 24
+    'windowWidth': 1231
+    'windowHeight': 1000
+    'treeSize': 208
+    'project': '/home/dsh/Projects/markup-blueprint'
+  'exception-reporting':
+    'userId': 'a1d022e0-83fe-7ef7-c164-264a3df6bee3'
+  'welcome':
+    'showOnStartup': false
+  'metrics':
+    'userId': '9abba6df3cf0993c754bbe758d3f3ace911823e7'
+  'preview':
+    '_analyticsUserId': 'a4ecaf66-1830-49ac-952a-5e5f0b2eb1c8'
+  'css-comb':
+    'config': 'zen'
+  'git-diff':
+    'showIconsInEditorGutter': true
+  'tree-view':
+    'hideIgnoredNames': true
+    'hideVcsIgnoredFiles': true
+  'autoclose-html': {}
+'.js.regexp.source':
+  'editor': {}
+'.css.less.source':
+  'editor': {}
+'.c.source ++ *':
+  'editor': {}
+'.c.source':
+  'editor': {}
+'.coffee.source':
+  'editor': {}
+'.litcoffee.source':
+  'editor': {}
+'.jade.source':
+  'editor': {}
+'.pyjade.source':
+  'editor': {}
+'.js.source':
+  'editor': {}
+'.preview':
+  'editor': {}

@@ -1,0 +1,7 @@
+{
+	"options": [
+		"--white",
+		"--browser",
+		"--predef", "['define', 'require', 'console']"
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"installed_packages":
+	[
+		"Alignment",
+		"CSScomb JS",
+		"EditorConfig",
+		"Emmet",
+		"Git",
+		"GitGutter-Edge",
+		"Gulp",
+		"Hayaku - tools for writing CSS faster",
+		"Jade",
+		"JSHint Gutter",
+		"LESS",
+		"Predawn",
+		"Stylus",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"Theme - Piatto",
+		"Theme - Soda"
+	]
+}
