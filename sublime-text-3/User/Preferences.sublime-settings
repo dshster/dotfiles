@@ -33,5 +33,23 @@
 	"sidebar_default": true,
 	"tabs_small": true,
 	"theme": "predawn.sublime-theme",
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"binary_file_patterns": [
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"node_modules/",
+		"tmp",
+		"*.min.*"
+	]
 }
