@@ -125,7 +125,7 @@ function parse_git_branch() {
 	if [ ! "${BRANCH}" == "" ]
 	then
 		STAT=`parse_git_dirty`
-		echo -e "\033[1;37;44m${BRANCH}\033[m \033[1;37;41m${STAT}\033[m "
+		echo -e "\033[1;37;44m${BRANCH}\033[m\033[1;37;41m${STAT}\033[m "
 	else
 		echo ""
 	fi
@@ -166,5 +166,4 @@ function parse_git_dirty {
 	fi
 }
 
-# export PS1="$PS1\[\033[1;31m\]\$(parse_git_branch)\[\033[0m\]${debian_chroot:+($debian_chroot)}"
-export PS1="\[\e[32m\]\u\[\e[m\]\[\e[32m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\]\[\e[32m\]:\[\e[m\]\[\e[37;44m\]\[$bold\]\w\[\e[m\]\n\[\e[31m\]\`parse_git_branch\`\[\e[m\]\\$ "
+export PS1="\033[32;40m\u@\h:\033[m\033[1;37;40m\w\033[m\n\`parse_git_branch\`\\$ "
